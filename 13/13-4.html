@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>One True 레이아웃</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        width: 1200px;
+        margin: 10px auto;
+      }
+      #top {
+        background: coral;
+      }
+      #left {
+        float: left;
+        width: 150px;
+        background: deeppink;
+      }
+      #right {
+        float: left;
+        width: 350px;
+        background: powderblue;
+      }
+      #bottom {
+        background: plum;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="top">header</div>
+
+    <div id="middle">
+      <div id="left">
+        <h1>Aside</h1>
+        <h3>왼쪽 메뉴 영역</h3>
+      </div>
+      <div id="right">
+        <h1>Section</h1>
+        <h3>오른쪽 메뉴 영역</h3>
+      </div>
+    </div>
+
+    <div id="bottom">
+      <h2>footer</h2>
+    </div>
+  </body>
+</html>
